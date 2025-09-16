@@ -22,15 +22,11 @@
 };
 
 &mmv_input_listener {
-    precision {
-        input-processors = <&zip_xy_scaler 1 4>;
-    };
+  input-processors = <&zip_xy_scaler 1 4>;
 };
 
 &msc_input_listener {
-    turbo {
-        input-processors = <&zip_scroll_scaler 4 1>;
-    };
+  input-processors = <&zip_scroll_scaler 4 1>;
 };
 
 &lt {
