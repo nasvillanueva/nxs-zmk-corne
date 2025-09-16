@@ -47,7 +47,7 @@
     behaviors {
         hm: homerow_mod {
             compatible = "zmk,behavior-hold-tap";
-            label = "Homerow Mod";
+            display-name = "Homerow Mod";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -59,7 +59,7 @@
 
         hms: homerow_mod_shift {
             compatible = "zmk,behavior-hold-tap";
-            label = "Homerow Mod Shift";
+            display-name = "Homerow Mod Shift";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -71,7 +71,7 @@
 
         thl: toggle_hold_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "Toggle Hold Layer";
+            display-name = "Toggle Hold Layer";
             bindings = <&mo>, <&tog>;
 
             #binding-cells = <2>;
@@ -81,7 +81,7 @@
 
         thumb_lt: thumb_lt {
             compatible = "zmk,behavior-hold-tap";
-            label = "Thumb Layer Tap";
+            display-name = "Thumb Layer Tap";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -103,7 +103,7 @@
                                                 &thumb_lt 4 LEFT_BRACKET  &lt 1 SPACE         &lt 2 ESCAPE    &lt 2 ENTER  &lt 1 BACKSPACE      &thumb_lt 4 RIGHT_BRACKET
             >;
 
-            label = "qwerty";
+            display-name = "qwerty";
         };
 
         Symbols {
@@ -114,7 +114,7 @@
                                   &none            &none        &none    &none  &none       &none
             >;
 
-            label = "symbols";
+            display-name = "symbols";
         };
 
         Nav {
@@ -125,7 +125,7 @@
                                      &none             &none             &none    &none     &none           &none
             >;
 
-            label = "nav";
+            display-name = "nav";
         };
 
         Mouse {
@@ -136,7 +136,7 @@
                                  &none      &none     &none    &none           &none            &none
             >;
 
-            label = "mouse";
+            display-name = "mouse";
         };
 
         Numbers {
@@ -147,7 +147,7 @@
                         &none   &none   &none     &none   &none   &none
             >;
 
-            label = "numbers";
+            display-name = "numbers";
         };
 
         Config {
@@ -158,7 +158,7 @@
                                      &none         &none         &none           &none        &none              &none
             >;
 
-            label = "config";
+            display-name = "config";
         };
 
         Macros {
@@ -169,7 +169,7 @@
                                  &none      &none                 &none             &none  &none  &none
             >;
 
-            label = "macros";
+            display-name = "macros";
         };
     };
 };
