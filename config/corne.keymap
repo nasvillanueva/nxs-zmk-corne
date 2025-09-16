@@ -18,14 +18,20 @@
     flavor = "balanced";
 };
 
+&mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
+
+&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
+
 &msc {
-    time-to-max-speed-ms = <100>;
     acceleration-exponent = <1>;
+    time-to-max-speed-ms = <100>;
+    delay-ms = <0>;
 };
 
 &mmv {
     time-to-max-speed-ms = <500>;
     acceleration-exponent = <1>;
+    trigger-period-ms = <16>;
 };
 
 / {
@@ -90,12 +96,6 @@
         compatible = "zmk,keymap";
 
         QWERTY {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
             bindings = <
 &lt 5 GRAVE  &kp Q              &kp W           &kp E                     &kp R               &kp T           &kp Y        &kp U                &kp I                      &kp O            &kp P                  &lt 5 BACKSLASH
 &kp TAB      &hms LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D        &hm LEFT_COMMAND F  &kp G           &kp H        &hm RIGHT_COMMAND J  &hm RIGHT_CONTROL K        &hm RIGHT_ALT L  &hms RIGHT_SHIFT SEMI  &kp SQT
