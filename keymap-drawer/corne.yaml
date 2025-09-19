@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: \, h: config}
-  - {t: TAB, h: numbers}
+  - TAB
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT SHIFT}
-  - {t: '''', h: numbers}
+  - ''''
   - {t: F13, h: macros}
   - Z
   - X
@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - N
-  - M
+  - {t: M, h: numbers}
   - ','
   - .
   - /
@@ -185,35 +185,35 @@ layers:
   - F10
   - F11
   - F12
-  - {type: held}
+  - ''
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - SPACE
+  - ESCAPE
+  - ENTER
+  - BACKSPACE
   - ''
   config:
   - {type: held}
