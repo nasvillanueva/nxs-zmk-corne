@@ -18,8 +18,8 @@ layers:
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT COMMAND}
-  - G
-  - H
+  - {t: G, h: numbers}
+  - {t: H, h: numbers}
   - {t: J, h: RIGHT COMMAND}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
@@ -32,7 +32,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: numbers}
+  - M
   - ','
   - .
   - /
@@ -190,12 +190,12 @@ layers:
   - '2'
   - '3'
   - '4'
+  - {t: '5', type: held}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
   - '5'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - ''
   - '6'
@@ -203,11 +203,11 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ''
   - ''
   - SPACE
