@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT SHIFT}
   - ''''
-  - {t: F13, h: macros}
+  - {t: GLOBE, h: macros}
   - Z
   - X
   - C
