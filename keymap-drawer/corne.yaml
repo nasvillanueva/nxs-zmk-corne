@@ -93,11 +93,11 @@ layers:
   - ''
   - ''
   - ''
-  - AC REDO
-  - AC COPY
-  - AC CUT
-  - AC PASTE
-  - AC UNDO
+  - Gui+Sft+Z
+  - Gui+C
+  - Gui+X
+  - Gui+V
+  - Gui+Z
   - ''
   - ''
   - LEFT SHIFT
