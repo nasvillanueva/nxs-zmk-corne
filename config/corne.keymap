@@ -132,9 +132,9 @@
 
         Nav {
             bindings = <
-&none  &none           &none         &none             &none             &none    &kp C_AC_REDO  &kp C_AC_COPY   &kp C_AC_CUT  &kp C_AC_PASTE  &kp C_AC_UNDO  &none
-&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT       &none          &none
-&none  &none           &none         &none             &none             &none    &kp HOME       &kp PAGE_DOWN   &kp PAGE_UP   &kp END         &none          &none
+&none  &none           &none         &none             &none             &none    &kp LG(LS(Z))  &kp LG(C)       &kp LG(X)     &kp LG(V)  &kp LG(Z)  &none
+&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none      &none
+&none  &none           &none         &none             &none             &none    &kp HOME       &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &none      &none
                                      &none             &none             &none    &none          &none           &none
             >;
 
